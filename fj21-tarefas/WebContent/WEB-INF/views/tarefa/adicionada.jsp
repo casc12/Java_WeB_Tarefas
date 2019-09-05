@@ -7,6 +7,6 @@
 <title>Confirmação!</title>
 </head>
 <body>
-	<h1>Nova Tarefa adicionado com Sucesso</h1>
+	<h1>Nova Tarefa adicionada com Sucesso</h1>
 </body>
 </html>
