@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Confirmação!</title>
+	<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet">
 </head>
 <body>
 	<h1>Nova Tarefa adicionada com Sucesso</h1>

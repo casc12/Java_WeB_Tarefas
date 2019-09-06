@@ -18,10 +18,10 @@ public class LoginController {
 	@RequestMapping("efetuaLogin")
 	public String efetuaLogin(Usuario usuario, HttpSession session) {
 		if(new JdbcUsuarioDao().existeUsuario(usuario)){
-			session.setAttribute("Usuário Logado, usuario);
+			session.setAttribute("usuarioLogado", usuario);
 			return "menu";
 		}
-		return "ridirect:loginForm";
+		return "redirect:loginForm";
 	}
 
 }
